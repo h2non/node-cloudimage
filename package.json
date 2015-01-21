@@ -1,0 +1,40 @@
+{
+  "name": "webclimate",
+  "description": "CLI and programmatic API client for Cloudimage.io",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "h2non/node-cloudimage",
+  "author": "Tomas Aparicio",
+  "main": "./lib",
+  "keywords": [
+    "image",
+    "convesion",
+    "processing",
+    "resize",
+    "vips",
+    "imagemagick"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "bin": {
+    "cloudimage": "./bin/cloudimage"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "lodash": "^2.4.1",
+    "mocha": "^1.21.3",
+    "nock": "^0.48.0",
+    "sinon": "^1.10.3",
+    "stubby": "^0.2.6"
+  }
+}
