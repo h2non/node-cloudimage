@@ -1,6 +1,6 @@
 {
   "name": "webclimate",
-  "description": "CLI and programmatic stream-based interface for Cloudimage.io",
+  "description": "Minimalist CLI and programmatic stream-based interface for Cloudimage.io",
   "version": "0.1.0",
   "license": "MIT",
   "repository": "h2non/node-cloudimage",
