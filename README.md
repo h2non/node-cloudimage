@@ -1,4 +1,4 @@
-# node-cloudimage [![Build Status](https://api.travis-ci.org/h2non/node-cloudimage.svg?branch=master)][travis] [![Dependency Status](https://gemnasium.com/h2non/node-cloudimage.svg)][gemnasium] [![NPM version](https://badge.fury.io/js/node-cloudimage.svg)][npm]
+# node-cloudimage [![Build Status](https://api.travis-ci.org/h2non/node-cloudimage.svg?branch=master)][travis] [![Dependency Status](https://gemnasium.com/h2non/node-cloudimage.svg)][gemnasium] [![NPM version](https://badge.fury.io/js/cloudimage.svg)][npm]
 
 Minimalist node.js/io.js CLI & programmatic stream-based interface for [Cloudimage.io](https://cloudimage.io)
 
