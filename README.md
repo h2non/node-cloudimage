@@ -118,4 +118,4 @@ Get the current module version
 
 [travis]: http://travis-ci.org/h2non/node-cloudimage
 [gemnasium]: https://gemnasium.com/h2non/node-cloudimage
-[npm]: http://npmjs.org/package/node-cloudimage
+[npm]: http://npmjs.org/package/cloudimage
