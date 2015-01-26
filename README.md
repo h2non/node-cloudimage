@@ -1,15 +1,15 @@
-# node-cloudimage [![Build Status](https://api.travis-ci.org/h2non/node-cloudimage.svg?branch=master)][travis] [![Dependency Status](https://gemnasium.com/h2non/node-cloudimage.svg)][gemnasium] [![NPM version](https://badge.fury.io/js/node-cloudimage.svg)][npm]
+# node-cloudimage [![Build Status](https://api.travis-ci.org/h2non/node-cloudimage.svg?branch=master)][travis] [![Dependency Status](https://gemnasium.com/h2non/node-cloudimage.svg)][gemnasium] [![NPM version](https://badge.fury.io/js/cloudimage.svg)][npm]
 
 Minimalist node.js/io.js CLI & programmatic stream-based interface for [Cloudimage.io](https://cloudimage.io)
 
 ## Installation
 
-For command-line usage, install is as global package:
+For command-line usage, install it as global package:
 ```bash
 npm install -g cloudimage
 ```
 
-For programmatic usage, install as tree dependency:
+For programmatic usage, install it in the tree dependency:
 ```bash
 npm install cloudimage --save[-dev]
 ```
