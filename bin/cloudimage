@@ -75,6 +75,8 @@ function command(action) {
     var resolution = flags.resolution
     var output = flags.output || path.basename(url)
 
+    if (flags.id) Cloudimage.clientId = flags.id
+
     Cloudimage(url)[action](resolution)
       .on('error', exitWithError)
       .pipe(fs.createWriteStream(output))
