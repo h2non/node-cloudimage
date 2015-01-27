@@ -9,7 +9,7 @@ program
   .version(Cloudimage.VERSION)
 
 program
-  .command('crop [url]')
+  .command('crop [imageUrl]')
   .description('Crop any image to a given square thumbnail in pixels')
   .option('-i, --id [id]', 'Cloudimage customer ID. Example: scvb0', Cloudimage.clientId)
   .option('-r, --resolution [resolution]', 'New image resolution', '300x300')
