@@ -68,10 +68,10 @@ Cloudimage(imageUrl)
   .pipe(fs.createWriteStream('new-image.jpg'))
 ```
 
-Use a custom Cloudimage's customer ID:
+Use your custom Cloudimage client token ID:
 
 ```js
-Cloudimage.clientID = 'svrd10'
+Cloudimage.clientId = 'svrd10'
 
 Cloudimage(imageUrl)
   .crop('100x100')
@@ -87,11 +87,11 @@ Crop any image to a given square thumbnail in pixels. Example: `300x300`
 
 #### cloudimage#width(resolution)
 
-Resize any image to a given width in pixels. Example: '200'
+Resize any image to a given width in pixels. Example: `200`
 
 #### cloudimage#height(resolution)
 
-Resize any image to a given height in pixels. Example: '200'
+Resize any image to a given height in pixels. Example:  `200`
 
 #### cloudimage#resizeInBox(resolution)
 
