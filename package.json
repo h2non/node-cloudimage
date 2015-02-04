@@ -31,7 +31,7 @@
     "test": "make test"
   },
   "dependencies": {
-    "request": "^2.51.0",
+    "request": "^2.53.0",
     "commander": "^2.6.0"
   },
   "devDependencies": {
